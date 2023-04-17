@@ -4,11 +4,11 @@ on:
   workflow_dispatch:
 
 jobs:
-    build-n-publish:
+    python-build-n-publish:
     name: Build and publish Python distribution
     runs-on: ubuntu-latest
     steps:
-        - uses: actions/checkout@master
+        - uses: actions/checkout@main
         - name: Initialize Python 3.9
         uses: actions/setup-python@v1
         with:
