@@ -14,5 +14,5 @@ setup(
         "Operating System :: OS Independent",
     ],
     install_requires=["click", "pytz"],
-    entry_points={"console_scripts": ["timechecker = src.main:main"]},
+    entry_points={"console_scripts": ["cloudquicklabs1 = src.main:main"]},
 )
